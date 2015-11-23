@@ -1,10 +1,10 @@
 -- Main
--- Lesson6
+-- Lesson8
 
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This program displays multiple screens
+-- This program is a test app for group 5
 
 -- Use this function to perform your initial setup
 function setup()
@@ -24,6 +24,7 @@ function setup()
     Scene("Store", Store)
     
     Scene.Change("splash")
+    
 end
 
 -- This function gets called once every frame

@@ -1,5 +1,5 @@
 -- MainScene
--- Lesson6
+-- Lesson8
 
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
@@ -13,6 +13,8 @@ local moveBackButton
 local moveMainGame
 local moveArtwork
 local moveStore
+
+print("Artwork")
 
 function MainScene:init(x)
     --sprite("Dropbox:Yellow Move Scene Forward Button")
@@ -32,6 +34,7 @@ function MainScene:draw()
     moveMainGame:draw()
     moveArtwork:draw()
     moveStore:draw()
+
 end
 
 function MainScene:touched(touch)
